@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ToursBaseModelContainer" CdmEntityContainer="ToursBaseEntities">
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="ToursBaseModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="код" ColumnName="код" />
+          <ScalarProperty Name="код_страны" ColumnName="код_страны" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hotels">
+      <EntityTypeMapping TypeName="ToursBaseModel.Hotel">
+        <MappingFragment StoreEntitySet="Hotel">
+          <ScalarProperty Name="код" ColumnName="код" />
+          <ScalarProperty Name="имя" ColumnName="имя" />
+          <ScalarProperty Name="количество_звезд" ColumnName="количество_звезд" />
+          <ScalarProperty Name="страна" ColumnName="страна" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hotelmages">
+      <EntityTypeMapping TypeName="ToursBaseModel.Hotelmage">
+        <MappingFragment StoreEntitySet="Hotelmage">
+          <ScalarProperty Name="код" ColumnName="код" />
+          <ScalarProperty Name="код_отеля" ColumnName="код_отеля" />
+          <ScalarProperty Name="источник_изображения" ColumnName="источник_изображения" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="ToursBaseModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tours">
+      <EntityTypeMapping TypeName="ToursBaseModel.Tour">
+        <MappingFragment StoreEntitySet="Tour">
+          <ScalarProperty Name="код" ColumnName="код" />
+          <ScalarProperty Name="количество_билетов" ColumnName="количество_билетов" />
+          <ScalarProperty Name="имя" ColumnName="имя" />
+          <ScalarProperty Name="описание" ColumnName="описание" />
+          <ScalarProperty Name="цена" ColumnName="цена" />
+          <ScalarProperty Name="пред_просмотр_изоб" ColumnName="пред_просмотр_изоб" />
+          <ScalarProperty Name="актуально" ColumnName="актуально" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Types">
+      <EntityTypeMapping TypeName="ToursBaseModel.Type">
+        <MappingFragment StoreEntitySet="Type">
+          <ScalarProperty Name="код" ColumnName="код" />
+          <ScalarProperty Name="имя" ColumnName="имя" />
+          <ScalarProperty Name="описание" ColumnName="описание" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

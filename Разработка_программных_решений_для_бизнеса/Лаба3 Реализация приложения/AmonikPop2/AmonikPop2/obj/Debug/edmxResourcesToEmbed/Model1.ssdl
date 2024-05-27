@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Session1_01_BerezkaModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="SessionTime">
+    <Key>
+      <PropertyRef Name="Session_timeId" />
+    </Key>
+    <Property Name="Session_timeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Date_login" Type="date" Nullable="false" />
+    <Property Name="Login_time" Type="time" Precision="7" Nullable="false" />
+    <Property Name="Logout_time" Type="time" Precision="7" />
+    <Property Name="Time_spent" Type="time" Precision="7" />
+    <Property Name="Unsuccessful_logout" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Role_user" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Password_p" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Birthdate" Type="date" Nullable="false" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="Chek" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Session">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="SessionTime" Type="Self.SessionTime" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Email" />
+      </Principal>
+      <Dependent Role="SessionTime">
+        <PropertyRef Name="Email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище Session1_01_BerezkaModelContainer">
+    <EntitySet Name="SessionTime" EntityType="Self.SessionTime" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Session" Association="Self.FK_Session">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="SessionTime" EntitySet="SessionTime" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

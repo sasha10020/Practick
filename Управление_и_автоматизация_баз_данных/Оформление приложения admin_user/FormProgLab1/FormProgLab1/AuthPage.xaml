@@ -1,0 +1,31 @@
+﻿<Page x:Class="FormProgLab1.AuthPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FormProgLab1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Авторизация">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="105"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="170"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Логин" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Height="25"/>
+        <TextBox x:Name="logTB" Grid.Column="2" Height="25" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Label Content="Пароль" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Height="25" Margin="0,30,0,0"/>
+        <PasswordBox x:Name="Pass" Grid.Column="2" Margin="0,30,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25"/>
+        <Button x:Name="B_Enter" Content="Вход" Grid.Column="2" Margin="0,60,0,0" Grid.Row="1" VerticalAlignment="Top" Click="B_Enter_Click"/>
+        <Button x:Name="B_registration" Content="Регистрация"  Grid.Column="2" Margin="0,85,0,0"  Grid.Row="1" VerticalAlignment="Top" Click="B_registration_Click"/>
+
+    </Grid>
+</Page>

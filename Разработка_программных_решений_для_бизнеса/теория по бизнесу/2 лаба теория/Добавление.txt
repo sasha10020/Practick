@@ -1,0 +1,45 @@
+﻿public partial class CreateTC : Page
+    {
+        SessionTCEntities context = new SessionTCEntities();
+        public CreateTC()
+        {
+            InitializeComponent();
+
+            cbStatus.SelectedIndex = 0;
+
+            cbStatus.Items.Add("план");
+            cbStatus.Items.Add("строительство");
+            cbStatus.Items.Add("реализация");
+            //Выгрузка в combobox
+        }
+
+        private void Save_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                ТЦ house = new ТЦ
+                {
+                    Название = tbName.Text,
+                    Статус = cbStatus.SelectedValue.ToString(),
+                    КоличествоПавильонов = Convert.ToInt32(tbCountPovl.Text),
+                    Город = tbCity.Text,
+                    Стоимость = Convert.ToInt32(tbZT.Text),
+                    КоэффициентДобавочнойСтоимости = Convert.ToInt32(tbADD.Text),
+                    Этажность = Convert.ToInt32(tbfloar.Text),
+
+
+                };
+
+                context.ТЦ.Add(house);
+                context.SaveChanges();
+
+                NavigationService?.Navigate(new TC());
+                //Переход на список тц
+            }
+            catch
+            {
+                MessageBox.Show("Проверьте правильность данных");
+            }
+        }
+    }
+}

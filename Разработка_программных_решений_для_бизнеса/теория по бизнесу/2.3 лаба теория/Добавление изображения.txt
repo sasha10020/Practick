@@ -1,0 +1,9 @@
+INSERT
+INTO таблица (атрибут 1, атрибут 2)
+
+SELECT "Название изображения", BulkColumn
+FROM OpenRowSet
+	(
+	Bulk N'Путь к файлу',
+	Single_Blob
+	)as Файл

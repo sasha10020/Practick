@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Session1_01_BerezkaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="SessionTime">
+    <Key>
+      <PropertyRef Name="Session_timeId" />
+    </Key>
+    <Property Name="Session_timeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date_login" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Login_time" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="Logout_time" Type="Time" Precision="7" />
+    <Property Name="Time_spent" Type="Time" Precision="7" />
+    <Property Name="Unsuccessful_logout" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Session" FromRole="SessionTime" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Role_user" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password_p" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Birthdate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="Chek" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="SessionTime" Relationship="Self.FK_Session" FromRole="Users" ToRole="SessionTime" />
+  </EntityType>
+  <Association Name="FK_Session">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="SessionTime" Type="Self.SessionTime" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Email" />
+      </Principal>
+      <Dependent Role="SessionTime">
+        <PropertyRef Name="Email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Session1_01_BerezkaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="SessionTime" EntityType="Self.SessionTime" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_Session" Association="Self.FK_Session">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="SessionTime" EntitySet="SessionTime" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

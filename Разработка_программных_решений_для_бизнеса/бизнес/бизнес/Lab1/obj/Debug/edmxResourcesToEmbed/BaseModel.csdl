@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ToursBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="код" />
+    </Key>
+    <Property Name="код" Type="Int32" Nullable="false" />
+    <Property Name="страна" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Hotel" Relationship="Self.FK__Hotel__код_стран__0F624AF8" FromRole="Country" ToRole="Hotel" />
+  </EntityType>
+  <EntityType Name="Hotel">
+    <Key>
+      <PropertyRef Name="код" />
+    </Key>
+    <Property Name="код" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="имя" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="количество_звезд" Type="Int32" Nullable="false" />
+    <Property Name="код_страны" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Country" Relationship="Self.FK__Hotel__код_стран__0F624AF8" FromRole="Hotel" ToRole="Country" />
+    <NavigationProperty Name="HotelImage" Relationship="Self.FK__HotelImag__код_о__123EB7A3" FromRole="Hotel" ToRole="HotelImage" />
+    <NavigationProperty Name="Tour" Relationship="Self.FK__Tour__код__151B244E" FromRole="Hotel" ToRole="Tour" />
+  </EntityType>
+  <EntityType Name="HotelImage">
+    <Key>
+      <PropertyRef Name="код" />
+    </Key>
+    <Property Name="код" Type="Int32" Nullable="false" />
+    <Property Name="код_отеля" Type="Int32" Nullable="false" />
+    <Property Name="источник_изображения" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Hotel" Relationship="Self.FK__HotelImag__код_о__123EB7A3" FromRole="HotelImage" ToRole="Hotel" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tour">
+    <Key>
+      <PropertyRef Name="код" />
+    </Key>
+    <Property Name="код" Type="Int32" Nullable="false" />
+    <Property Name="количество_билетов" Type="Int32" Nullable="false" />
+    <Property Name="имя" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="описание" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="цена" Type="Int32" Nullable="false" />
+    <Property Name="пред_просмотр_изоб" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="актуально" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Hotel" Relationship="Self.FK__Tour__код__151B244E" FromRole="Tour" ToRole="Hotel" />
+    <NavigationProperty Name="Type" Relationship="Self.FK__Type__код__17F790F9" FromRole="Tour" ToRole="Type" />
+  </EntityType>
+  <EntityType Name="Type">
+    <Key>
+      <PropertyRef Name="код" />
+    </Key>
+    <Property Name="код" Type="Int32" Nullable="false" />
+    <Property Name="имя" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="описание" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Tour" Relationship="Self.FK__Type__код__17F790F9" FromRole="Type" ToRole="Tour" />
+  </EntityType>
+  <Association Name="FK__Hotel__код_стран__0F624AF8">
+    <End Role="Country" Type="Self.Country" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Hotel" Type="Self.Hotel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="код" />
+      </Principal>
+      <Dependent Role="Hotel">
+        <PropertyRef Name="код_страны" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HotelImag__код_о__123EB7A3">
+    <End Role="Hotel" Type="Self.Hotel" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="HotelImage" Type="Self.HotelImage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hotel">
+        <PropertyRef Name="код" />
+      </Principal>
+      <Dependent Role="HotelImage">
+        <PropertyRef Name="код_отеля" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tour__код__151B244E">
+    <End Role="Hotel" Type="Self.Hotel" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Tour" Type="Self.Tour" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Hotel">
+        <PropertyRef Name="код" />
+      </Principal>
+      <Dependent Role="Tour">
+        <PropertyRef Name="код" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Type__код__17F790F9">
+    <End Role="Tour" Type="Self.Tour" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Type" Type="Self.Type" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Tour">
+        <PropertyRef Name="код" />
+      </Principal>
+      <Dependent Role="Type">
+        <PropertyRef Name="код" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ToursBaseEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Country" EntityType="Self.Country" />
+    <EntitySet Name="Hotel" EntityType="Self.Hotel" />
+    <EntitySet Name="HotelImage" EntityType="Self.HotelImage" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Tour" EntityType="Self.Tour" />
+    <EntitySet Name="Type" EntityType="Self.Type" />
+    <AssociationSet Name="FK__Hotel__код_стран__0F624AF8" Association="Self.FK__Hotel__код_стран__0F624AF8">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="Hotel" EntitySet="Hotel" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HotelImag__код_о__123EB7A3" Association="Self.FK__HotelImag__код_о__123EB7A3">
+      <End Role="Hotel" EntitySet="Hotel" />
+      <End Role="HotelImage" EntitySet="HotelImage" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tour__код__151B244E" Association="Self.FK__Tour__код__151B244E">
+      <End Role="Hotel" EntitySet="Hotel" />
+      <End Role="Tour" EntitySet="Tour" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Type__код__17F790F9" Association="Self.FK__Type__код__17F790F9">
+      <End Role="Tour" EntitySet="Tour" />
+      <End Role="Type" EntitySet="Type" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

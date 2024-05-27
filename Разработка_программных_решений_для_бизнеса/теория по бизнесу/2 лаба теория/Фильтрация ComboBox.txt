@@ -1,0 +1,18 @@
+
+
+ErrorsEntities context = new ErrorsEntities();
+List<Errorss> er = new List<Errorss>();
+private void LoadPage()
+        {
+            er = context.Errorss.ToList();
+            dger.ItemsSource = er;
+
+          List<string> type = context.ErrorType.Select(u => u.Name).ToList();
+            cbType.ItemsSource = type;
+}
+
+ private void CbType_SelectionChanged(object sender, EventArgs e)
+        {
+           er = context.Errorss.Where(u => u.ErrorType == cbType.SelectedItem.ToString()).ToList();
+            dger.ItemsSource = er;
+        }

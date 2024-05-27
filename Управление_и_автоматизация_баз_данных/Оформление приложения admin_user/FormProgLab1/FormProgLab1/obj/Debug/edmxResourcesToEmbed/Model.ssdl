@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище UserModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="UserS">
+    <Key>
+      <PropertyRef Name="login" />
+    </Key>
+    <Property Name="role" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="login" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="300" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Хранилище UserModelContainer">
+    <EntitySet Name="UserS" EntityType="Self.UserS" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

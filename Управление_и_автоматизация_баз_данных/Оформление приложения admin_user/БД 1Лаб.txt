@@ -1,0 +1,24 @@
+Create table UserS
+(  
+   role varchar(300) not null,
+   login   varchar(300)  not null,      
+   password varchar(300) not null,  
+   primary key (login)  
+)   
+  
+
+ insert into UserS
+ (
+   role,
+   login,    
+   password
+   
+  )  
+  
+ values   
+ (  'admin', 'smirnov', 'vseh_othislil'),  
+ (  'user', 'zhukova', 'loveall'),   
+ (  'user', 'bereza', 'i_want_money'),  
+ (  'user','bolotina', 'i_sas'),  
+ (  'admin','emelina', 'i_love_funny'),  
+ (  'user','vasilenko', 'toshnotiki')

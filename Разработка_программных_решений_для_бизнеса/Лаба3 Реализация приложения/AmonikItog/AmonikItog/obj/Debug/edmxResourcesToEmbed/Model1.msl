@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище AmonikLastModelContainer" CdmEntityContainer="AmonikLastEntities">
+    <EntitySetMapping Name="SessionTime">
+      <EntityTypeMapping TypeName="AmonikLastModel.SessionTime">
+        <MappingFragment StoreEntitySet="SessionTime">
+          <ScalarProperty Name="Session_timeId" ColumnName="Session_timeId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date_login" ColumnName="Date_login" />
+          <ScalarProperty Name="Login_time" ColumnName="Login_time" />
+          <ScalarProperty Name="Logout_time" ColumnName="Logout_time" />
+          <ScalarProperty Name="Time_spent" ColumnName="Time_spent" />
+          <ScalarProperty Name="Unsuccessful_logout" ColumnName="Unsuccessful_logout" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="AmonikLastModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Role_user" ColumnName="Role_user" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password_p" ColumnName="Password_p" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Birthdate" ColumnName="Birthdate" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Chek" ColumnName="Chek" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

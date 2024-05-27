@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище Session1_01_BerezkaModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="SessionTime">
+          <Key>
+            <PropertyRef Name="Session_timeId" />
+          </Key>
+          <Property Name="Session_timeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Date_login" Type="date" Nullable="false" />
+          <Property Name="Login_time" Type="time" Precision="7" Nullable="false" />
+          <Property Name="Logout_time" Type="time" Precision="7" />
+          <Property Name="Time_spent" Type="time" Precision="7" />
+          <Property Name="Unsuccessful_logout" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Email" />
+          </Key>
+          <Property Name="Role_user" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Password_p" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="Birthdate" Type="date" Nullable="false" />
+          <Property Name="Active" Type="bit" Nullable="false" />
+          <Property Name="Chek" Type="bit" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Session">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="SessionTime" Type="Self.SessionTime" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Email" />
+            </Principal>
+            <Dependent Role="SessionTime">
+              <PropertyRef Name="Email" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище Session1_01_BerezkaModelContainer">
+          <EntitySet Name="SessionTime" EntityType="Self.SessionTime" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Session" Association="Self.FK_Session">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="SessionTime" EntitySet="SessionTime" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Session1_01_BerezkaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="SessionTime">
+          <Key>
+            <PropertyRef Name="Session_timeId" />
+          </Key>
+          <Property Name="Session_timeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Date_login" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Login_time" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="Logout_time" Type="Time" Precision="7" />
+          <Property Name="Time_spent" Type="Time" Precision="7" />
+          <Property Name="Unsuccessful_logout" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Session" FromRole="SessionTime" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Email" />
+          </Key>
+          <Property Name="Role_user" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password_p" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Title" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Birthdate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Active" Type="Boolean" Nullable="false" />
+          <Property Name="Chek" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="SessionTime" Relationship="Self.FK_Session" FromRole="Users" ToRole="SessionTime" />
+        </EntityType>
+        <Association Name="FK_Session">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="SessionTime" Type="Self.SessionTime" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Email" />
+            </Principal>
+            <Dependent Role="SessionTime">
+              <PropertyRef Name="Email" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Session1_01_BerezkaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="SessionTime" EntityType="Self.SessionTime" />
+          <EntitySet Name="Users" EntityType="Self.Users" />
+          <AssociationSet Name="FK_Session" Association="Self.FK_Session">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="SessionTime" EntitySet="SessionTime" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Session1_01_BerezkaModelContainer" CdmEntityContainer="Session1_01_BerezkaEntities">
+          <EntitySetMapping Name="SessionTime">
+            <EntityTypeMapping TypeName="Session1_01_BerezkaModel.SessionTime">
+              <MappingFragment StoreEntitySet="SessionTime">
+                <ScalarProperty Name="Session_timeId" ColumnName="Session_timeId" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Date_login" ColumnName="Date_login" />
+                <ScalarProperty Name="Login_time" ColumnName="Login_time" />
+                <ScalarProperty Name="Logout_time" ColumnName="Logout_time" />
+                <ScalarProperty Name="Time_spent" ColumnName="Time_spent" />
+                <ScalarProperty Name="Unsuccessful_logout" ColumnName="Unsuccessful_logout" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="Session1_01_BerezkaModel.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="Role_user" ColumnName="Role_user" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Password_p" ColumnName="Password_p" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Birthdate" ColumnName="Birthdate" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="Chek" ColumnName="Chek" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

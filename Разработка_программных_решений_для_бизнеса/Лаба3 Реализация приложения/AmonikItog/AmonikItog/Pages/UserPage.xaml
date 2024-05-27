@@ -1,0 +1,56 @@
+﻿<Page x:Class="AmonikItog.Pages.UserPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AmonikItog"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="900"
+      Title="UserPage" Loaded="Page_Loaded_1">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="58*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="291*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="36*"/>
+            <ColumnDefinition Width="139*"/>
+            <ColumnDefinition Width="149*"/>
+            <ColumnDefinition Width="91*"/>
+            <ColumnDefinition Width="342*"/>
+            <ColumnDefinition Width="43*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="hiLable" Content="" HorizontalAlignment="Left" VerticalAlignment="Center" Width="356" Height="40" FontSize="20" Grid.Row="1" Grid.Column="2" Margin="8,0,0,0" Grid.ColumnSpan="3" FontFamily="Tw Cen MT"/>
+        <Label x:Name="TimeSpentLable" Content="Time spent on system: " HorizontalAlignment="Left" Margin="25,0,0,0" VerticalAlignment="Center" Width="214" Height="40" FontSize="20" Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="2" FontFamily="Tw Cen MT"/>
+        <Label x:Name="CrashesLable" Content="" HorizontalAlignment="Left" Margin="136,0,0,0" VerticalAlignment="Center" Width="202" Height="40" FontSize="20" Grid.Row="2" Grid.Column="5" FontFamily="Tw Cen MT"/>
+        <Button x:Name="ExitButton" Content="Exit" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Height="40" Width="122" FontSize="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="ExitButton_Click" Grid.Column="2" FontFamily="Verdana"/>
+        <Label x:Name="TimerLable" Content="" HorizontalAlignment="Left" VerticalAlignment="Center" Width="94" Height="40" FontSize="20" Grid.Column="5" Grid.Row="2" FontFamily="Tw Cen MT"/>
+        <DataGrid x:Name="UserGrid" Grid.ColumnSpan="4" Margin="0,4,0,2" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="3" Grid.Column="2" FontFamily="Verdana">
+            <DataGrid.Resources>
+                <local:ColorConverter x:Key="ColorConverter"/>
+            </DataGrid.Resources>
+            <DataGrid.RowStyle>
+                <Style TargetType="{x:Type DataGridRow}">
+                    <Setter Property="Background" Value="{Binding Color, Converter={StaticResource ColorConverter}}"/>
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Date" Width="100" Binding="{Binding Path=Date_login}"/>
+                <DataGridTextColumn Header="Login time" Width="100" Binding="{Binding Path=Login_time}"/>
+                <DataGridTextColumn Header="Logout time" Width="100" Binding="{Binding Path=Logout_time}"/>
+                <DataGridTextColumn Header="Time spent on system" Width="150" Binding="{Binding Path=Time_spent}"/>
+                <DataGridTextColumn Header="Unsuccessful logout" Width="*" Binding="{Binding Unsuccessful_logout}"/>
+                <DataGridTextColumn Header="Color" Width="*" Binding="{Binding Path=Color}" Visibility="Hidden"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="ShutDownButton" Content="Shutdown" HorizontalAlignment="Center" Margin="0,5,0,0" VerticalAlignment="Top" Height="40" Width="122" FontSize="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="ShutDownButton_Click" Grid.Column="3" FontFamily="Verdana"/>
+
+
+    </Grid>
+</Page>

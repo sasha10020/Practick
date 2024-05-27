@@ -1,0 +1,70 @@
+Create Table BOOKS    
+(  
+ name_book varchar(200) not null,  
+ date_book date not null  
+)  
+  
+Create Table AUTHORS   
+(  
+ name_a varchar(100) not null,  
+ last_name varchar(100) not null  
+)  
+Create Table DELIVERIES   
+(  
+ what varchar(100) not null,  
+ date_w date not null  
+) 
+  
+  
+EXEC sp_addrole 'LIBRAR'  
+  
+EXEC sp_addrole 'READER' 
+
+GRANT DELETE, INSERT, UPDATE, SELECT ON BOOKS TO LIBRAR
+
+GRANT DELETE, INSERT, UPDATE, SELECT ON AUTHORS TO LIBRAR
+
+GRANT DELETE, INSERT, UPDATE, SELECT ON DELIVERIES TO LIBRAR
+
+GRANT EXECUTE TO LIBRAR
+
+
+GRANT SELECT ON BOOKS TO READER
+
+GRANT SELECT ON AUTHORS TO READER
+
+GRANT SELECT ON DELIVERIES TO READER
+  
+  
+Exec sp_addlogin 'Zukova_Lib','Zukova', 'Demo_Base'
+
+use Demo_Base
+
+Exec sp_adduser 'Zukova_Lib','Zukova_Lib'
+
+EXEC sp_addrolemember 'LIBRAR', 'Zukova_Lib'
+
+
+ 
+Exec sp_addlogin 'Bolotina_Read','Bolotina', 'Demo_Base'
+
+Exec sp_adduser 'Bolotina_Read','Bolotina_Read'
+
+EXEC sp_addrolemember 'READER', 'Bolotina_Read'
+
+EXEC sp_droprolemember 'READER', 'Bolotina_Read'
+
+
+--Настройка паролей для входа в систему
+ALTER LOGIN Zukova_Lib 
+WITH CHECK_POLICY = OFF, CHECK_EXPIRATION = OFF;
+
+--Смена пароля
+ALTER LOGIN Zukova_Lib
+WITH PASSWORD = '1234567'
+
+--Отключение входа в систему
+ALTER LOGIN DanDrayton DISABLE;
+
+ --Удаление логина
+ Drop Login Zukova_Lib;

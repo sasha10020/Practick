@@ -1,0 +1,40 @@
+﻿ int UserID;
+ //главное окно
+private void Edit_Click(object sender, RoutedEventArgs e)
+        {
+            var row = (Errorss)dger.SelectedItem;
+
+            int ID = context.Error.Where(u => u.Name == row.ErrorName && u.Description == row.Description).Select(u => u.ID).FirstOrDefault();
+
+            NavigationService?.Navigate(new Update(ID));
+
+        }
+//окно редактирования
+ public partial class Update : Page
+    {
+        Error er { get; set; }
+        ErrorsEntities context = new ErrorsEntities();
+        int IDuser;
+        public Update(int ID)
+        {
+            InitializeComponent();
+            IDuser = ID;
+
+            er = context.Error.Where(u => u.ID == IDuser).FirstOrDefault();
+            List<string> typecb = context.ErrorType.Select(u => u.Name).ToList();
+            errorTypeIDComboBox.ItemsSource = typecb;
+
+            grid1.DataContext = er;
+            string type = context.ErrorType.Where(u => u.ID == er.ErrorTypeID).Select(u => u.Name).FirstOrDefault();
+            errorTypeIDComboBox.SelectedItem = type;
+        }
+
+        private void Save_Click(object sender, RoutedEventArgs e)
+        {
+            int type = context.ErrorType.Where(u => u.Name == errorTypeIDComboBox.SelectedItem.ToString()).Select(u => u.ID).FirstOrDefault();
+            er.ErrorTypeID = type;
+            context.SaveChanges();
+            NavigationService?.Navigate(new AllError(IDuser));
+        }
+
+    }

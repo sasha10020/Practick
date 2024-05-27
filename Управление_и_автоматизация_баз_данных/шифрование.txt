@@ -1,0 +1,113 @@
+USE [master]
+GO
+CREATE DATABASE [EncryptedDB3]
+GO
+
+USE [EncryptedDB3]
+GO
+CREATE TABLE [dbo].[CreditCardInformation]
+([PersonID] [int] PRIMARY KEY,
+[CreditCardNumber] [varbinary](max))
+GO
+
+USE [EncryptedDB3]
+GO
+CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'Big_laba'
+GO
+
+/*Создание ассиметричного ключа, зашифрованного парольной фразой*/
+Use [EncryptedDB3]
+Go
+Create AsymMetric Key AsymetricKey
+With Algorithm = RSA_2048
+Encryption By Password = 'big_laba'
+Go
+
+/*Создание симетричного ключа, зашифрованного ассиметричным ключом*/
+Create Symmetric Key SymmetricKey
+With Algorithm = AES_256
+Encryption By Asymmetric Key AsymetricKey
+
+Use [EncryptedDB3]
+Go
+Open symmetric Key SymmetricKey
+Decryption By Asymmetric Key AsymetricKey
+With Password = 'big_laba'
+Go
+
+Use [EncryptedDB3]
+Go
+Select * From [sys].[openkeys]
+
+
+USE [EncryptedDB3]
+GO
+DECLARE @SymmetricKeyGUID AS [uniqueidentifier]
+SET @SymmetricKeyGUID = KEY_GUID('SymmetricKey')
+IF (@SymmetricKeyGUID IS NOT NULL)
+BEGIN
+INSERT INTO [dbo].[CreditCardInformation]
+VALUES (01, ENCRYPTBYKEY(@SymmetricKeyGUID,
+N'9876-1234-8765-4321'))
+INSERT INTO [dbo].[CreditCardInformation]
+VALUES (02, ENCRYPTBYKEY(@SymmetricKeyGUID,
+N'9876-8765-8765-1234'))
+INSERT INTO [dbo].[CreditCardInformation]
+VALUES (03, ENCRYPTBYKEY(@SymmetricKeyGUID,
+N'9876-1234-1111-2222'))
+END
+/*Truncate table [dbo].[CreditCardInformation]*/
+Use [EncryptedDB3]
+Go
+Select * From [dbo].[CreditCardInformation]
+
+Use [EncryptedDB3]
+Go
+Select [PersonID],
+Convert([nvarchar](32), DECRYPTBYKEY(CreditCardNumber))
+AS [CreditCardNumber]
+FROM [dbo].[CreditCardInformation]
+
+
+-------------------------------------------------------------\
+-- прозрачное шифрование данных
+Use [master]
+go
+
+-- создаем DMK и сертификат сервера в базе данных master
+create master key encryption by
+password = '$tr0ng$$w0rd1'
+go
+
+Create certificate EncryptedDBCert3
+with subject = 'Certificate to encrypt EncrypteDB3_0'
+
+Use [master]
+go
+create database encryption key
+with algorithm = AES_256
+Encryption by server certificate [EncryptedDBCert3]
+
+
+-- узнаем состояние шифрование всех баз данных на сервере
+use [master]
+go
+select db.[name]
+,db.[is_encrypted]
+, dm.[encryption_state]
+, dm.[percent_complete]
+, dm.[key_algorithm]
+, dm.[key_length]
+, db.[is_encrypted]from [sys].[databases] db
+left outer join [sys].[dm_database_encryption_keys] dm
+on db.[database_id] = dm.[database_id]
+go
+
+----------------------------------------------------------
+
+
+Вопросы:
+ключи
+поле с паролем
+показать
+прозрачное шифрование отличия

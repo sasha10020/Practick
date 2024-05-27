@@ -1,0 +1,161 @@
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.exe.config
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.exe
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.pdb
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\AuthPage.g.cs
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\CustomerMenu.g.cs
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\App.g.cs
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_MarkupCompile.cache
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_MarkupCompile.lref
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\App.baml
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\AuthPage.baml
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\CustomerMenu.baml
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\Dictionary.xaml.baml
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.g.resources
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.Properties.Resources.resources
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.GenerateResource.cache
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.exe
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.pdb
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\Menu.g.cs
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\Page2.g.cs
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\Menu.baml
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\Page2.baml
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\DirectorMenu.g.cs
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\DirectorMenu.baml
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_Content.g.cs
+C:\Users\user\Desktop\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.CopyComplete
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.exe.config
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.exe
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.pdb
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\EntityFramework.dll
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\EntityFramework.xml
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\ru\EntityFramework.resources.dll
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.AssemblyReference.cache
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\AuthPage.g.cs
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\CustomerMenu.g.cs
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\DirectorMenu.g.cs
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\MainWindow.g.cs
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\Menu.g.cs
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\Page2.g.cs
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\App.g.cs
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_Content.g.cs
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_MarkupCompile.cache
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_MarkupCompile.lref
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\App.baml
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\AuthPage.baml
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\CustomerMenu.baml
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\Dictionary.xaml.baml
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\DirectorMenu.baml
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\MainWindow.baml
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\Menu.baml
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\Page2.baml
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.g.resources
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.Properties.Resources.resources
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.GenerateResource.cache
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.CoreCompileInputs.cache
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.CopyComplete
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.exe
+D:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.pdb
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.exe.config
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.exe
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.pdb
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\EntityFramework.dll
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\EntityFramework.xml
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\bin\Debug\ru\EntityFramework.resources.dll
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.AssemblyReference.cache
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\AuthPage.g.cs
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\CustomerMenu.g.cs
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\DirectorMenu.g.cs
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\MainWindow.g.cs
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\Menu.g.cs
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\Page2.g.cs
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\App.g.cs
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_Content.g.cs
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_MarkupCompile.cache
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_MarkupCompile.lref
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\App.baml
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\AuthPage.baml
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\CustomerMenu.baml
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\Dictionary.xaml.baml
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\DirectorMenu.baml
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\MainWindow.baml
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\Menu.baml
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\Page2.baml
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.g.resources
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.Properties.Resources.resources
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.GenerateResource.cache
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.CoreCompileInputs.cache
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.CopyComplete
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.exe
+E:\Управление и автоматизация БД\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.pdb
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.exe.config
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.exe
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.pdb
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\bin\Debug\EntityFramework.dll
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\bin\Debug\EntityFramework.xml
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.AssemblyReference.cache
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\AuthPage.g.cs
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\CustomerMenu.g.cs
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\DirectorMenu.g.cs
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\MainWindow.g.cs
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\Menu.g.cs
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\Page2.g.cs
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\App.g.cs
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_Content.g.cs
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_MarkupCompile.cache
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_MarkupCompile.lref
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\App.baml
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\AuthPage.baml
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\CustomerMenu.baml
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\Dictionary.xaml.baml
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\DirectorMenu.baml
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\MainWindow.baml
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\Menu.baml
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\Page2.baml
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.g.resources
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.Properties.Resources.resources
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.GenerateResource.cache
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.CoreCompileInputs.cache
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.CopyComplete
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.exe
+C:\Projects\Управление и автоматизация баз данных\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.pdb
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.exe.config
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.exe
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\bin\Debug\FormProgLab1.pdb
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\bin\Debug\EntityFramework.dll
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\bin\Debug\EntityFramework.xml
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.AssemblyReference.cache
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.SuggestedBindingRedirects.cache
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\AuthPage.g.cs
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\CustomerMenu.g.cs
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\DirectorMenu.g.cs
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\MainWindow.g.cs
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\Menu.g.cs
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\Page2.g.cs
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\App.g.cs
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_Content.g.cs
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_MarkupCompile.cache
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1_MarkupCompile.lref
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\App.baml
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\AuthPage.baml
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\CustomerMenu.baml
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\Dictionary.xaml.baml
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\DirectorMenu.baml
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\MainWindow.baml
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\Menu.baml
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\Page2.baml
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.g.resources
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.Properties.Resources.resources
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.GenerateResource.cache
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.CoreCompileInputs.cache
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.csproj.CopyComplete
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.exe
+C:\Projects\Управление и автоматизация баз данных\Оформление приложения admin_user\FormProgLab1\FormProgLab1\obj\Debug\FormProgLab1.pdb

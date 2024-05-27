@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmonikPop2", "AmonikPop2\AmonikPop2.csproj", "{5C74CBA1-9A95-4925-B988-15280BAD0991}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C74CBA1-9A95-4925-B988-15280BAD0991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C74CBA1-9A95-4925-B988-15280BAD0991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C74CBA1-9A95-4925-B988-15280BAD0991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C74CBA1-9A95-4925-B988-15280BAD0991}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A42F7E3C-C73E-4849-9C01-FC8857AAE10C}
+	EndGlobalSection
+EndGlobal

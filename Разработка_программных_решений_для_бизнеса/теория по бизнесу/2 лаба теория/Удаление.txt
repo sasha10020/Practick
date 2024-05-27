@@ -1,0 +1,8 @@
+﻿
+            private void Delete_Click(object sender, RoutedEventArgs e)
+        {
+            var row = (Errorss)dger.SelectedItem;
+            var error = context.Error.Where(u => u.Name == row.ErrorName && u.Description == row.Description).FirstOrDefault();
+            context.Error.Remove(error);
+            context.SaveChanges();
+        }

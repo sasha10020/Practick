@@ -1,0 +1,35 @@
+﻿<Page x:Class="AmonikPop2.AddUserPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AmonikPop2"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="900"
+      Title="AddUserPage">
+
+    <Grid HorizontalAlignment="Right" Width="900">
+
+        <TextBox Name="Usertb" HorizontalAlignment="Right" Text="{Binding Email}" Height="46" Margin="0,0,473,448" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="264" Grid.ColumnSpan="2" />
+        <TextBox Name="FirstNameTB" HorizontalAlignment="Right" Text="{Binding FirstName}" Height="46" Margin="0,0,472,389" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="264" Grid.ColumnSpan="2" />
+        <TextBox x:Name="LastNameTB" HorizontalAlignment="Right" Text="{Binding LastName}" Height="46" Margin="0,0,472,335" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="264" Grid.ColumnSpan="2" />
+        <ComboBox x:Name="ComboOfficeB" HorizontalAlignment="Left" Height="59" Margin="166,172,0,0" VerticalAlignment="Top" Width="213"/>
+        <Button Name="SaveBtn" Content="Save" HorizontalAlignment="Right" Height="31" Margin="0,0,473,50" VerticalAlignment="Bottom" Width="252" Click="SaveBtn_Click" />
+        <Label Content="Email address" HorizontalAlignment="Left" Height="46" Margin="32,15,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label Content="First name" HorizontalAlignment="Left" Height="46" Margin="37,63,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label Content="Last name" HorizontalAlignment="Left" Height="46" Margin="29,117,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label Content="Office" HorizontalAlignment="Left" Height="46" Margin="23,169,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label Content="Birtdate" HorizontalAlignment="Left" Height="46" Margin="30,223,0,0" VerticalAlignment="Top" Width="190" />
+        <Label Content="Password" HorizontalAlignment="Left" Height="46" Margin="26,296,0,0" VerticalAlignment="Top" Width="190" />
+        <!--<TextBox HorizontalAlignment="Right" Height="28" Margin="0,0,471,192"  TextWrapping="Wrap"  VerticalAlignment="Bottom" Width="258"/>-->
+        <!--<TextBox HorizontalAlignment="Left" Height="49" Margin="249,0,0,0" TextWrapping="Wrap"  VerticalAlignment="Center" Width="265"/>-->
+        <DatePicker x:Name="DataBirth" HorizontalAlignment="Left" Text="{Binding Birthdate}" Height="49" Margin="166,239,0,0" VerticalAlignment="Top" Width="247"/>
+        <PasswordBox x:Name="PasswordB" HorizontalAlignment="Left" Height="38" Margin="187,295,0,0" VerticalAlignment="Top" Width="243"/>
+        <Button x:Name="Back" Content="Cansel" HorizontalAlignment="Left" Height="45" Margin="483,410,0,0" VerticalAlignment="Top" Width="164" Click="Back_Click"/>
+        <!--<TextBox x:Name="Usertb_Copy" HorizontalAlignment="Right" Height="46" Margin="0,0,133,413" TextWrapping="Wrap" Text="{Binding Role_user}" VerticalAlignment="Bottom" Width="264" />
+        <TextBox x:Name="Usertb_Copy1" HorizontalAlignment="Right" Height="46" Margin="0,0,134,356" TextWrapping="Wrap" Text="{Binding Active}" VerticalAlignment="Bottom" Width="264" />
+        <TextBox x:Name="Usertb_Copy2" HorizontalAlignment="Right" Height="46" Margin="0,0,131,275" TextWrapping="Wrap" Text="{Binding Chek}" VerticalAlignment="Bottom" Width="264" />-->
+
+
+    </Grid>
+</Page>

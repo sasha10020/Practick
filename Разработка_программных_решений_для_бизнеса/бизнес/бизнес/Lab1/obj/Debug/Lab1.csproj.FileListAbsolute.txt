@@ -1,0 +1,162 @@
+C:\Users\user.UIT\Desktop\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\user.UIT\Desktop\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\user.UIT\Desktop\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\Lab1.csproj.AssemblyReference.cache
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\AddEditPage.g.cs
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\HotelsPage.g.cs
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\MainWindow.g.cs
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\App.g.cs
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\Lab1_MarkupCompile.cache
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\Lab1_MarkupCompile.lref
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\AddEditPage.baml
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\HotelsPage.baml
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\MainWindow.baml
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\Lab1.g.resources
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\user.UIT\Desktop\Lab1\Lab1\obj\Debug\Lab1.pdb
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\bin\Debug\Lab1.exe.config
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\bin\Debug\Lab1.exe
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\bin\Debug\Lab1.pdb
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\Lab1.csproj.AssemblyReference.cache
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\AddEditPage.g.cs
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\HotelsPage.g.cs
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\MainWindow.g.cs
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\App.g.cs
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\Lab1_MarkupCompile.cache
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\Lab1_MarkupCompile.lref
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\App.baml
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\AddEditPage.baml
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\HotelsPage.baml
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\MainWindow.baml
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\Lab1.g.resources
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\Lab1.exe
+I:\Моя Прекрасная хуйня Настя\Lab1\Lab1\obj\Debug\Lab1.pdb
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\bin\Debug\Lab1.exe
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\bin\Debug\Lab1.pdb
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1.csproj.SuggestedBindingRedirects.cache
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\AddEditPage.g.cs
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\HotelsPage.g.cs
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\MainWindow.g.cs
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\App.g.cs
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1_MarkupCompile.cache
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1_MarkupCompile.lref
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\App.baml
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\AddEditPage.baml
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\HotelsPage.baml
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\MainWindow.baml
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1.g.resources
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1.exe
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1.pdb
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\bin\Debug\EntityFramework.dll
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\bin\Debug\EntityFramework.xml
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1_Content.g.cs
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1.csproj.CopyComplete
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\Lab1.csproj.AssemblyReference.cache
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\AddPage.g.cs
+C:\Users\79852\Desktop\3 курс\Запорожец\бизнес\Lab1\obj\Debug\AddPage.baml
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\bin\Debug\Lab1.exe
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\bin\Debug\Lab1.pdb
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.dll
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.xml
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.AssemblyReference.cache
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\AddEditPage.g.cs
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\AddPage.g.cs
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\HotelsPage.g.cs
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\MainWindow.g.cs
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\App.g.cs
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\Lab1_Content.g.cs
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\Lab1_MarkupCompile.cache
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\Lab1_MarkupCompile.lref
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\App.baml
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\AddEditPage.baml
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\AddPage.baml
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\HotelsPage.baml
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\MainWindow.baml
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\Lab1.g.resources
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.CopyComplete
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\Lab1.exe
+C:\Users\Лизка\Desktop\бизнес\бизнес\Lab1\obj\Debug\Lab1.pdb
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\Lab1.exe.config
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\Lab1.exe
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\Lab1.pdb
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.dll
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.xml
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.AssemblyReference.cache
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.SuggestedBindingRedirects.cache
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\AddEditPage.g.cs
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\AddPage.g.cs
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\HotelsPage.g.cs
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\MainWindow.g.cs
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\ToursPage.g.cs
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\App.g.cs
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1_Content.g.cs
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1_MarkupCompile.cache
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1_MarkupCompile.lref
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\App.baml
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\AddEditPage.baml
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\AddPage.baml
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\HotelsPage.baml
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\MainWindow.baml
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\ToursPage.baml
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.g.resources
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.CopyComplete
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.exe
+C:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.pdb
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\Lab1.exe.config
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\Lab1.exe
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\Lab1.pdb
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.dll
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.xml
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\bin\Debug\ru\EntityFramework.resources.dll
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.AssemblyReference.cache
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.SuggestedBindingRedirects.cache
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\AddEditPage.g.cs
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\AddPage.g.cs
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\HotelsPage.g.cs
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\MainWindow.g.cs
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\ToursPage.g.cs
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\App.g.cs
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1_Content.g.cs
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1_MarkupCompile.cache
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1_MarkupCompile.lref
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\App.baml
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\AddEditPage.baml
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\AddPage.baml
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\HotelsPage.baml
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\MainWindow.baml
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\ToursPage.baml
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.g.resources
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.csproj.CopyComplete
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.exe
+D:\Projects\Разработка программных решений для бизнеса\бизнес\бизнес\Lab1\obj\Debug\Lab1.pdb

@@ -1,0 +1,10 @@
+ var query = from person in context.PersonSet
+                        join client in context.PersonSet_Client on person.Id equals client.Id
+                        select new
+                        {
+                            person.Id,
+                            FirstName = person.FirstName,
+                            MiddleName = person.MiddleName,
+                            LastName = person.LastName
+                        };
+            dgAgents.ItemsSource = query.ToList();

@@ -1,0 +1,41 @@
+﻿ private void Add_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (tbFirstName.Text == "" || tbLastName.Text == "" || tbMiddleName.Text == "" || tbDealShare.Text == "")
+                {
+                    MessageBox.Show("Все поля должны быть заполнены");
+                }
+                else
+                {
+                    PersonSet person = new PersonSet
+                    {
+                        FirstName = tbFirstName.Text,
+                        MiddleName = tbMiddleName.Text,
+                        LastName = tbLastName.Text
+                    };
+
+                    context.PersonSet.Add(person);
+                    context.SaveChanges();
+
+                    int ID = context.PersonSet.Where(c => c.FirstName == tbFirstName.Text && c.MiddleName == tbMiddleName.Text && c.LastName == tbLastName.Text).Select(c => c.Id).FirstOrDefault();
+
+                    PersonSet_Agent agent = new PersonSet_Agent
+                    {
+                        DealShare = Convert.ToInt32(tbDealShare.Text),
+                        Id = ID
+                    };
+
+                    context.PersonSet_Agent.Add(agent);
+                    context.SaveChanges();
+
+                    MessageBox.Show("Готово");
+                    NavigationService?.Navigate(new Agent());
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Eror");
+            }
+        }
+    }

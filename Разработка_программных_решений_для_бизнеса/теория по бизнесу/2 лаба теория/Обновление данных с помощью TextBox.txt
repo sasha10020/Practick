@@ -1,0 +1,48 @@
+public partial class UpdateClient : Page
+    {
+        EsoftEntities context = new EsoftEntities();
+        int Id;
+        public UpdateClient( int ID)
+        {
+            InitializeComponent();
+            tbFirstName.Text = context.PersonSet.Where(c => c.Id == ID).Select(c => c.FirstName).FirstOrDefault();
+            tbMiddleName.Text = context.PersonSet.Where(c => c.Id == ID).Select(c => c.MiddleName).FirstOrDefault();
+            tbLastName.Text = context.PersonSet.Where(c => c.Id == ID).Select(c => c.LastName).FirstOrDefault();
+            tbEmail.Text = Convert.ToString(context.PersonSet_Client.Where(c => c.Id == ID).Select(c => c.Email).FirstOrDefault());
+            tbPhone.Text = Convert.ToString(context.PersonSet_Client.Where(c => c.Id == ID).Select(c => c.Phone).FirstOrDefault());
+
+            Id = ID;
+        }
+
+        private void Update_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (tbFirstName.Text == "" || tbLastName.Text == "" || tbMiddleName.Text == "" || (tbEmail.Text == "" && tbPhone.Text == ""))
+            {
+                MessageBox.Show("Все поля должны быть заполнены");
+            }
+            else
+            {
+                PersonSet country = context.PersonSet.Find(Id);
+                if (country == null) return;
+                country.FirstName = tbFirstName.Text;
+                country.MiddleName = tbMiddleName.Text;
+                country.LastName = tbLastName.Text;
+                context.PersonSet.AddOrUpdate(country);
+                context.SaveChanges();
+
+                int ID = context.PersonSet.Where(c => c.FirstName == tbFirstName.Text && c.MiddleName == tbMiddleName.Text && c.LastName == tbLastName.Text).Select(c => c.Id).FirstOrDefault();
+
+                PersonSet_Client client = context.PersonSet_Client.Find(Id);
+                if (client == null) return;
+                client.Email = tbEmail.Text;
+                client.Phone = tbPhone.Text;
+                context.PersonSet_Client.AddOrUpdate(client);
+                context.SaveChanges();
+                
+                MessageBox.Show("Готово");
+                NavigationService?.Navigate(new Client());
+            }
+        }
+    }
+}

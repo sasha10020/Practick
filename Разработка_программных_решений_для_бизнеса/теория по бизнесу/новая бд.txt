@@ -1,0 +1,119 @@
+--1
+Create Table Country 
+( 
+Code int Primary Key, 
+Name_country varchar(50) not null, 
+) 
+ --2
+Create Table Hotel 
+( 
+id int Primary Key Identity(1,1), 
+Name_hotel varchar(50) NOT NULL, 
+Count_of_stars int not null, 
+Country_code int not null, 
+ 
+Foreign Key (Country_code) References Country (Code) 
+On Update Cascade  
+On Delete Cascade 
+) 
+
+ --3
+Create Table HotellImage 
+( 
+id int Primary Key, 
+Hotel_id int not null, 
+Image_Source varchar(100) not null 
+ 
+Foreign Key (Hotel_id) References Hotel (id) 
+On Update Cascade 
+On Delete Cascade 
+) 
+ --4
+Create Table Tour 
+( 
+id int Primary Key, 
+Ticket_count int null, 
+Name_tour varchar(50) not null, 
+Description_tour varchar(100) null, 
+Image_preview int null, 
+Price float null, 
+Is_Actual bit null 
+ 
+Foreign Key (id) References Hotel (id) 
+On Update Cascade 
+On Delete Cascade 
+) 
+ --5
+Create Table Type_Hotel 
+( 
+id int Primary Key, 
+Name_type varchar(50) not null, 
+Description_type varchar(100) null 
+ 
+Foreign Key (id) References Tour (id) 
+On Update Cascade 
+On Delete Cascade 
+)
+
+Create Table ImageTour   
+(    
+Image_tour_Id int Primary Key Identity(1,1),    
+Image_tour image null     
+)  
+
+Alter Table Tour ADD CONSTRAINT Хранит 
+Foreign Key (Image_Id) References ImageTour(Image_tour_Id) 
+ON UPDATE No Action 
+ON DELETE No Action 
+
+
+-------------------------------------
+
+Insert Into Country
+Values
+(777, 'Russia'),
+(808, 'USA'),
+(128, 'UK'),
+(6, 'France'),
+(72, 'Spain')
+
+Insert Into Hotel
+Values
+('Dubstep', 3, 777),
+('Gas', 4, 808),
+('Central Cee', 5, 128)
+
+Insert Into HotellImage
+Values
+(1, 1, 'there'),
+(2, 2, 'where'),
+(3, 3, 'here')
+
+Insert Into Tour
+Values
+(1, 2, 'Find Peace', 'Image your beautifull weekend', null, 49.9, 1),
+(2, 3, 'Legs Rest', 'Image your beautifull weekend', null, 199.9, 1),
+(3, 1, 'Rest In Place', 'Relax', null, 200, 0)
+
+Insert Into Type_Hotel
+Values
+(1, 'Weekend in the forest', 'The biggest house in the forest'),
+(2, 'Hight rest', 'Im the highest in the room'),
+(3, 'Survive', 'You cant do it')
+
+
+
+
+ INSERT 
+INTO ImageTour (Image_tour) 
+SELECT  BulkColumn 
+FROM OpenRowSet 
+ ( 
+ Bulk N'C:\Лабораторные\Запорожец\Бизнес\Hotel2.jpg', 
+ Single_Blob 
+ )as Файл 
+ 
+Insert Into ImageTour 
+values 
+(null)
+
